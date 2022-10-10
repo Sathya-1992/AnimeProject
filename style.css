@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1.6rem;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container div{
+  height: 5rem;
+  width: 5rem;
+  background-color: blue;
+}
+div:nth-child(3n){
+  border-radius: 50%;
+}
+.test{
+  background-color: red !important;
+}
